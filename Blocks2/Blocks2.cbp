@@ -8,7 +8,6 @@
 		<Build>
 			<Target title="Debug">
 				<Option output="Blocks2" prefix_auto="1" extension_auto="1" />
-				<Option object_output="/home/jamesstrouth/workspace/SDL/2023/Blocks2/.objs" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -28,7 +27,6 @@
 			</Target>
 			<Target title="Release">
 				<Option output="Blocks2" prefix_auto="1" extension_auto="1" />
-				<Option object_output="/home/jamesstrouth/workspace/SDL/2023/Blocks2/.objs" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
