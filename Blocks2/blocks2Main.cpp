@@ -7,6 +7,7 @@
 int main(int argc, char* args[])
 {
     jwsBlocksMgr bm;
+
     return bm.Run();
 }
 

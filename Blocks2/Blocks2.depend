@@ -529,3 +529,139 @@
 	"jwsAudio.h"
 	"jwsGlobals.h"
 
+1689013785 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsAudio.cpp
+	"jwsAudio.h"
+
+1689013785 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsAudio.h
+	<iostream>
+	<SDL2/SDL_mixer.h>
+	"jwsString.h"
+
+1682456962 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsString.h
+	<iostream>
+	<string>
+
+1689015235 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsEvent.cpp
+	"jwsEvent.h"
+
+1689015157 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsEvent.h
+	<iostream>
+	"SDL.h"
+
+1690304933 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsFile.cpp
+	"jwsFile.h"
+
+1689602803 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsFile.h
+	<iostream>
+	<fstream>
+
+1689077832 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsFont.cpp
+	"jwsFont.h"
+
+1689010559 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsFont.h
+	"SDL.h"
+	"SDL_ttf.h"
+	"jwsString.h"
+
+1689170427 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsGame.cpp
+	"jwsGame.h"
+
+1689097472 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsGame.h
+	"jwsWindow2.h"
+	"jwsEvent.h"
+	"jwsAudio.h"
+	"jwsGlobals.h"
+
+1689170178 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsWindow2.h
+	<iostream>
+	"SDL.h"
+	"jwsString.h"
+
+1689097563 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsGlobals.h
+
+1689098887 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsGameState.cpp
+	"jwsGameState.h"
+
+1689098759 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsGameState.h
+	"jwsStateManager.h"
+
+1689099167 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsStateManager.h
+	<stack>
+	"jwsGameState.h"
+
+1690230041 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsImage2.cpp
+	"jwsImage2.h"
+
+1690230152 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsImage2.h
+	"SDL_image.h"
+	"jwsString.h"
+
+1690229844 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsRunState.cpp
+	"jwsRunState.h"
+
+1689100953 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsRunState.h
+	<jwsGameState.h>
+	"jwsEvent.h"
+	"jwsImage2.h"
+
+1689103847 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsStateManager.cpp
+	"jwsStateManager.h"
+	<iostream>
+
+1619959155 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsString.cpp
+	"jwsString.h"
+
+1689170285 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsWindow2.cpp
+	"jwsWindow2.h"
+
+1692711461 source:/home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsBall.cpp
+	"jwsBall.h"
+
+1688924038 /home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsBall.h
+	"jwsImage2.h"
+
+1692711584 source:/home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsBlocksMgr.cpp
+	"jwsBlocksMgr.h"
+	"jwsGlobals.h"
+
+1689170703 /home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsBlocksMgr.h
+	"jwsImage2.h"
+	"jwsBall.h"
+	"jwsPaddle.h"
+	"jwsBricks.h"
+	"jwsStatus.h"
+	"jwsMusic.h"
+	"jwsGame.h"
+
+1688914101 /home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsPaddle.h
+	"jwsImage2.h"
+	"jwsEvent.h"
+
+1688992029 /home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsBricks.h
+	"jwsBrick.h"
+
+1688990362 /home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsBrick.h
+	"jwsImage2.h"
+
+1689016818 /home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsStatus.h
+	"jwsFont.h"
+	"jwsWindow2.h"
+
+1689017036 /home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsMusic.h
+	"jwsAudio.h"
+
+1692711482 source:/home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsBrick.cpp
+	"jwsBrick.h"
+
+1688992159 source:/home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsBricks.cpp
+	"jwsBricks.h"
+
+1689014550 source:/home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsMusic.cpp
+	"jwsMusic.h"
+
+1692711508 source:/home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsPaddle.cpp
+	"jwsPaddle.h"
+
+1689097788 source:/home/jamesstrouth/workspace/sdl2_code/Blocks2/jwsStatus.cpp
+	"jwsStatus.h"
+
