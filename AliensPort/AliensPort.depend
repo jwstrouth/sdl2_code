@@ -1,0 +1,581 @@
+# depslib dependency file v1.0
+1694104096 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/AliensPort/jwsMgr.cpp
+	"jwsMgr.h"
+
+1694104470 /home/jamesstrouth/workspace/sdl2_code/AliensPort/AliensPort/jwsMgr.h
+	"jwsImage2.h"
+	"jwsGame.h"
+	"jwsPlayer.h"
+
+1694092835 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/AliensPort/main.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	"jwsMgr.h"
+
+1689013785 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsAudio.cpp
+	"jwsAudio.h"
+
+1689013785 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsAudio.h
+	<iostream>
+	<SDL2/SDL_mixer.h>
+	"jwsString.h"
+
+1682456962 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsString.h
+	<iostream>
+	<string>
+
+1694098793 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsEvent.cpp
+	"jwsEvent.h"
+
+1694098714 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsEvent.h
+	<iostream>
+	"SDL.h"
+
+1675723745 /usr/include/SDL2/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1675814400 /usr/include/SDL2/SDL_config.h
+	"SDL_config-i386.h"
+	"SDL_config-ia64.h"
+	"SDL_config-ppc64.h"
+	"SDL_config-ppc64le.h"
+	"SDL_config-ppc.h"
+	"SDL_config-s390x.h"
+	"SDL_config-s390.h"
+	"SDL_config-x86_64.h"
+	"SDL_config-arm.h"
+	"SDL_config-alpha.h"
+	"SDL_config-sparc64.h"
+	"SDL_config-sparc.h"
+	"SDL_config-aarch64.h"
+	"SDL_config-mips64el.h"
+	"SDL_config-mips64.h"
+	"SDL_config-mipsel.h"
+	"SDL_config-mips.h"
+	"SDL_config-riscv64.h"
+
+1675814400 /usr/include/SDL2/SDL_config-x86_64.h
+	"SDL_platform.h"
+
+1675723745 /usr/include/SDL2/SDL_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/begin_code.h
+
+1675723745 /usr/include/SDL2/close_code.h
+
+1675723745 /usr/include/SDL2/SDL_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1675723745 /usr/include/SDL2/SDL_scancode.h
+	"SDL_stdinc.h"
+
+1675723745 /usr/include/SDL2/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1675723745 /usr/include/SDL2/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675723745 /usr/include/SDL2/SDL_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1690304933 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsFile.cpp
+	"jwsFile.h"
+
+1689602803 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsFile.h
+	<iostream>
+	<fstream>
+
+1689077832 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsFont.cpp
+	"jwsFont.h"
+
+1689010559 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsFont.h
+	"SDL.h"
+	"SDL_ttf.h"
+	"jwsString.h"
+
+1675732208 /usr/include/SDL2/SDL_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1694099209 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsGame.cpp
+	"jwsGame.h"
+
+1689097472 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsGame.h
+	"jwsWindow2.h"
+	"jwsEvent.h"
+	"jwsAudio.h"
+	"jwsGlobals.h"
+
+1689170178 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsWindow2.h
+	<iostream>
+	"SDL.h"
+	"jwsString.h"
+
+1689097563 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsGlobals.h
+
+1689098887 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsGameState.cpp
+	"jwsGameState.h"
+
+1689098759 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsGameState.h
+	"jwsStateManager.h"
+
+1689099167 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsStateManager.h
+	<stack>
+	"jwsGameState.h"
+
+1690230041 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsImage2.cpp
+	"jwsImage2.h"
+
+1690230152 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsImage2.h
+	"SDL_image.h"
+	"jwsString.h"
+
+1675727398 /usr/include/SDL2/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1690229844 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsRunState.cpp
+	"jwsRunState.h"
+
+1689100953 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsRunState.h
+	<jwsGameState.h>
+	"jwsEvent.h"
+	"jwsImage2.h"
+
+1689103847 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsStateManager.cpp
+	"jwsStateManager.h"
+	<iostream>
+
+1619959155 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsString.cpp
+	"jwsString.h"
+
+1689170285 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsWindow2.cpp
+	"jwsWindow2.h"
+
+1694104060 /home/jamesstrouth/workspace/sdl2_code/AliensPort/AliensPort/jwsPlayer.h
+	"jwsImage2.h"
+
+1694104229 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/AliensPort/jwsPlayer.cpp
+	"jwsPlayer.h"
+
+1694092835 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/main.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	"jwsMgr.h"
+
+1694266893 /home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsMgr.h
+	<jwsImage2.h>
+	<jwsGame.h>
+	<jwsPlayer.h>
+	<jwsShot.h>
+	<jwsAliens.h>
+
+1694267347 /home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsPlayer.h
+	<jwsWindow2.h>
+	<jwsImage2.h>
+	<jwsEvent.h>
+
+1694189486 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsMgr.cpp
+	"jwsMgr.h"
+
+1694193469 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsPlayer.cpp
+	"jwsPlayer.h"
+
+1694267347 /home/jamesstrouth/workspace/sdl2_code/AliensPort//jwsPlayer.h
+	<jwsWindow2.h>
+	<jwsImage2.h>
+	<jwsEvent.h>
+
+1694193437 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsShot.cpp
+	"jwsShot.h"
+
+1694269803 /home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsShot.h
+	<jwsImage2.h>
+	<jwsWindow2.h>
+	<jwsEvent.h>
+	<jwsPlayer.h>
+
+1694269803 /home/jamesstrouth/workspace/sdl2_code/AliensPort//jwsShot.h
+	<jwsImage2.h>
+	<jwsWindow2.h>
+	<jwsEvent.h>
+	<jwsPlayer.h>
+
+1694193221 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsAliens.cpp
+	"jwsAliens.h"
+
+1694268609 /home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsAliens.h
+	<jwsImage2.h>
+	<jwsWindow2.h>
+	<jwsEvent.h>
+	<jwsPlayer.h>
+
+1694268609 /home/jamesstrouth/workspace/sdl2_code/AliensPort//jwsAliens.h
+	<jwsImage2.h>
+	<jwsWindow2.h>
+	<jwsEvent.h>
+	<jwsPlayer.h>
+

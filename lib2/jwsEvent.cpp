@@ -71,3 +71,14 @@ bool jwsEvent::IsSpace()
     return GetKeyboardState(key, SDL_SCANCODE_SPACE);
 }
 
+bool jwsEvent::IsLeft()
+{
+    Uint8 *key = 0;
+    return GetKeyboardState(key, SDL_SCANCODE_LEFT);
+}
+
+bool jwsEvent::IsRight()
+{
+    Uint8 *key = 0;
+    return GetKeyboardState(key, SDL_SCANCODE_RIGHT);
+}

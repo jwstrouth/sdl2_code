@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AliensPort" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="AliensPort" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../../../../usr/include/SDL2" />
+					<Add directory="./" />
+					<Add directory="AliensPort" />
+					<Add directory="../lib2" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL2" />
+					<Add option="-lSDL2_image" />
+					<Add option="-lSDL2_mixer" />
+					<Add option="-lSDL2_ttf" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="AliensPort" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+					<Add directory="AliensPort" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../lib2/jwsAudio.cpp" />
+		<Unit filename="../lib2/jwsAudio.h" />
+		<Unit filename="../lib2/jwsEvent.cpp" />
+		<Unit filename="../lib2/jwsEvent.h" />
+		<Unit filename="../lib2/jwsFile.cpp" />
+		<Unit filename="../lib2/jwsFile.h" />
+		<Unit filename="../lib2/jwsFont.cpp" />
+		<Unit filename="../lib2/jwsFont.h" />
+		<Unit filename="../lib2/jwsGame.cpp" />
+		<Unit filename="../lib2/jwsGame.h" />
+		<Unit filename="../lib2/jwsGameState.cpp" />
+		<Unit filename="../lib2/jwsGameState.h" />
+		<Unit filename="../lib2/jwsGlobals.h" />
+		<Unit filename="../lib2/jwsImage2.cpp" />
+		<Unit filename="../lib2/jwsImage2.h" />
+		<Unit filename="../lib2/jwsRunState.cpp" />
+		<Unit filename="../lib2/jwsRunState.h" />
+		<Unit filename="../lib2/jwsStateManager.cpp" />
+		<Unit filename="../lib2/jwsStateManager.h" />
+		<Unit filename="../lib2/jwsString.cpp" />
+		<Unit filename="../lib2/jwsString.h" />
+		<Unit filename="../lib2/jwsWindow2.cpp" />
+		<Unit filename="../lib2/jwsWindow2.h" />
+		<Unit filename="jwsAliens.cpp" />
+		<Unit filename="jwsAliens.h" />
+		<Unit filename="jwsMgr.cpp" />
+		<Unit filename="jwsMgr.h" />
+		<Unit filename="jwsPlayer.cpp" />
+		<Unit filename="jwsPlayer.h" />
+		<Unit filename="jwsShot.cpp" />
+		<Unit filename="jwsShot.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

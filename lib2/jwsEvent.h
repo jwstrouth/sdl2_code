@@ -18,6 +18,8 @@ class jwsEvent
         bool IsEscape();
         bool IsLeftButton(int *x, int *y);
         bool IsSpace();
+        bool IsLeft();
+        bool IsRight();
 
     protected:
 
