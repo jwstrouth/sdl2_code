@@ -6,6 +6,7 @@
 #include <jwsPlayer.h>
 #include <jwsShot.h>
 #include <jwsAliens.h>
+#include <jwsAudio.h>
 
 const int MAX_SHOTS = 10;
 
@@ -29,6 +30,7 @@ class jwsMgr: public jwsGame
         jwsShot     m_shots[MAX_SHOTS];
         bool        m_reloading;
         jwsAliens   m_aliens;
+        jwsAudio    m_music;
 };
 
 #endif // JWSMGR_H

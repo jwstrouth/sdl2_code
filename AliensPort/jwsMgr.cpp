@@ -44,6 +44,10 @@ int jwsMgr::LoadData()
         return -1;
     }
 
+    m_music.Init();
+    m_music.LoadMusic("data/ideas.mp3");
+    m_music.PlayMusic();
+
     return 0;
 }
 
@@ -78,7 +82,7 @@ int jwsMgr::Draw()
     m_player.Draw();
     for(int i=0; i<MAX_SHOTS; i++)
     {
-        m_shots[i].Draw();
+        m_shots[i].DrawShot();
     }
     m_aliens.Draw();
 
