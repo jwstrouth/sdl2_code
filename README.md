@@ -1,6 +1,9 @@
 # sdl2_code
 
-Application code developed for sdl2 library
+## Application code developed from sdl2 library
 
-This code base is developed under Fedora 38 and uses CodeBlocks IDE
+- AliensPort https://www.libsdl.org/projects/aliens/
+- Blocks
+
+## This code base is developed under Fedora 38 and uses CodeBlocks IDE
 
