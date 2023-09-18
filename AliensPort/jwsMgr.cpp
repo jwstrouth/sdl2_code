@@ -88,6 +88,7 @@ int jwsMgr::Draw()
 int jwsMgr::Update()
 {
     int i = MAX_SHOTS;
+
     m_player.Update(&m_wnd, &m_event);
 
     if(m_reloading == false)
@@ -135,6 +136,7 @@ int jwsMgr::Update()
             if(m_shots[j].IsAlive() && m_aliens.IsAlive(i) && Collison(m_shots[j].GetImage(), m_aliens.GetImage(i)) == true)
             {
                 //std::cout << "jwsMgr::Update: shot:alians (j:i): " << j << ":" << i << std::endl;
+                m_aliens.SetExplosion(i);
                 m_aliens.SetDead(i);
                 m_shots[j].SetDead();
             }

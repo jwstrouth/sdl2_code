@@ -5,8 +5,10 @@
 #include <jwsWindow2.h>
 #include <jwsEvent.h>
 #include <jwsPlayer.h>
+#include <jwsExplode.h>
 
 const int MAX_ALIENS = 30;
+//const int EXPLOSION_TIME = 4;
 
 class jwsAlien
 {
@@ -15,11 +17,14 @@ class jwsAlien
         {
             m_dirx = 1;
             m_alive = false;
+            m_explosionTime = 0;
         }
         ~jwsAlien(){}
 
         int Init(jwsWindow2 *wnd);
         int Draw();
+        void SetExplosion(){ m_explode.SetTime(); cout << "jwsAlien::SetExplosion\n"; };
+        void DrawExplosion();
 
         void ReverseDirx(){ m_dirx *= -1; }
 
@@ -44,6 +49,8 @@ class jwsAlien
         jwsImage2   m_image;
         int         m_dirx;
         bool        m_alive;
+        jwsExplode  m_explode;
+        int         m_explosionTime;
 };
 
 class jwsAliens
@@ -61,6 +68,7 @@ class jwsAliens
         jwsImage2 *GetImage(int i){ return m_aliens[i].GetImage(); }
         bool IsAlive(int i){ return m_aliens[i].IsAlive(); }
         void SetDead(int i){ m_aliens[i].SetDead(); }
+        void SetExplosion(int i);
 
     protected:
 

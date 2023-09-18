@@ -66,6 +66,8 @@
 		<Unit filename="../lib2/jwsWindow2.h" />
 		<Unit filename="jwsAliens.cpp" />
 		<Unit filename="jwsAliens.h" />
+		<Unit filename="jwsExplode.cpp" />
+		<Unit filename="jwsExplode.h" />
 		<Unit filename="jwsMgr.cpp" />
 		<Unit filename="jwsMgr.h" />
 		<Unit filename="jwsPlayer.cpp" />

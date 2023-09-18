@@ -12,10 +12,10 @@
 	<iostream>
 	"jwsMgr.h"
 
-1689013785 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsAudio.cpp
+1695041501 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsAudio.cpp
 	"jwsAudio.h"
 
-1689013785 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsAudio.h
+1695041359 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsAudio.h
 	<iostream>
 	<SDL2/SDL_mixer.h>
 	"jwsString.h"
@@ -538,7 +538,7 @@
 	<jwsImage2.h>
 	<jwsEvent.h>
 
-1694189486 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsMgr.cpp
+1695037654 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsMgr.cpp
 	"jwsMgr.h"
 
 1694193469 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsPlayer.cpp
@@ -564,18 +564,35 @@
 	<jwsEvent.h>
 	<jwsPlayer.h>
 
-1694193221 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsAliens.cpp
+1695040596 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsAliens.cpp
 	"jwsAliens.h"
 
-1694268609 /home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsAliens.h
+1695040416 /home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsAliens.h
 	<jwsImage2.h>
 	<jwsWindow2.h>
 	<jwsEvent.h>
 	<jwsPlayer.h>
+	<jwsExplode.h>
 
-1694268609 /home/jamesstrouth/workspace/sdl2_code/AliensPort//jwsAliens.h
+1695040416 /home/jamesstrouth/workspace/sdl2_code/AliensPort//jwsAliens.h
 	<jwsImage2.h>
 	<jwsWindow2.h>
 	<jwsEvent.h>
 	<jwsPlayer.h>
+	<jwsExplode.h>
+
+1695042022 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsExplode.cpp
+	"jwsExplode.h"
+
+1695042167 /home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsExplode.h
+	<jwsImage2.h>
+	<jwsString.h>
+	<jwsWindow2.h>
+	<jwsAudio.h>
+
+1695042167 /home/jamesstrouth/workspace/sdl2_code/AliensPort//jwsExplode.h
+	<jwsImage2.h>
+	<jwsString.h>
+	<jwsWindow2.h>
+	<jwsAudio.h>
 

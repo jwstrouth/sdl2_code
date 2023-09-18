@@ -89,4 +89,24 @@ bool jwsAudio::IsPlayingMusic()
     return true;
 }
 
+int jwsAudio::LoadWav(jwsString name)
+{
+    m_snd = Mix_LoadWAV(name);
+    if(m_snd == NULL)
+    {
+        cout << "jwsAudio::LoadWav: Failed to load %s file " << name << endl;
+        return -1;
+    }
+    return 0;
+}
+
+// play the sound for the maximum time in milliseconds
+int jwsAudio::PlaySound(int time)
+{
+    if(m_snd)
+    {
+        Mix_PlayChannelTimed(-1, m_snd, 0, time);
+    }
+    return 0;
+}
 

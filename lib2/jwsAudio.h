@@ -19,6 +19,8 @@ class jwsAudio
         int StopMusic();
         int SetMusicVolume(int vol);
         bool IsPlayingMusic();
+        int LoadWav(jwsString name);
+        int PlaySound(int time);
 
     protected:
 

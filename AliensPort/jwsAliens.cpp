@@ -14,6 +14,8 @@ int jwsAlien::Init(jwsWindow2 *wnd)
     m_image.SetDW(100/2);
     m_image.SetDH(100/2);
 
+    m_explode.Load(*wnd);
+
     return 0;
 }
 
@@ -21,6 +23,11 @@ int jwsAlien::Draw()
 {
     m_image.Draw();
     return 0;
+}
+
+void jwsAlien::DrawExplosion()
+{
+    m_explode.Draw(m_image.GetDX(), m_image.GetDY());
 }
 
 //jwsAliens
@@ -57,6 +64,8 @@ int jwsAliens::Draw()
 		{
 			m_aliens[i].Draw();
         }
+
+        m_aliens[i].DrawExplosion();
 	}
 
     return 0;
@@ -141,4 +150,9 @@ int jwsAliens::Move(jwsWindow2 *wnd)
 	}
 
     return 0;
+}
+
+void jwsAliens::SetExplosion(int i)
+{
+    m_aliens[i].SetExplosion();
 }
