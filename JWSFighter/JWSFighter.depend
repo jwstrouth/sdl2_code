@@ -1,9 +1,8 @@
 # depslib dependency file v1.0
-1695066005 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/main.cpp
+1695130745 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/main.cpp
 	<SDL2/SDL.h>
 	<iostream>
 	<jwsFighterMgr.h>
-	<jwsRandomNumber.h>
 
 1695041501 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsAudio.cpp
 	"jwsAudio.h"
@@ -508,7 +507,7 @@
 1689170285 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsWindow2.cpp
 	"jwsWindow2.h"
 
-1695128247 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighterMgr.cpp
+1695130840 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighterMgr.cpp
 	"jwsFighterMgr.h"
 
 1695128222 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighterMgr.h
@@ -518,7 +517,7 @@
 	<jwsEnemies.h>
 	<jwsMissle.h>
 
-1695128325 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighter.cpp
+1695138989 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighter.cpp
 	"jwsFighter.h"
 
 1695128277 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighter.h
@@ -529,14 +528,15 @@
 	<jwsMissle.h>
 	<jwsEnemies.h>
 
-1695128408 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsEnemies.cpp
+1695139410 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsEnemies.cpp
 	"jwsEnemies.h"
 
-1695128677 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsEnemies.h
+1695148822 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsEnemies.h
 	<list>
 	<jwsImage2.h>
 	<jwsWindow2.h>
 	<jwsRandomNumber.h>
+	<jwsExplosion.h>
 
 1695066401 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsRandomNumber.cpp
 	"jwsRandomNumber.h"
@@ -544,13 +544,29 @@
 1695066421 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsRandomNumber.h
 	<iostream>
 
-1695128491 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsMissle.cpp
+1695132578 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsMissle.cpp
 	"jwsMissle.h"
 
-1695128701 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsMissle.h
+1695132683 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsMissle.h
 	<list>
 	<jwsImage2.h>
 	<jwsWindow2.h>
 	<jwsEvent.h>
 	<jwsEnemies.h>
+
+1695140017 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsExplode.cpp
+	"jwsExplode.h"
+
+1695042167 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsExplode.h
+	<jwsImage2.h>
+	<jwsString.h>
+	<jwsWindow2.h>
+	<jwsAudio.h>
+
+1695148546 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsExplosion.cpp
+	"jwsExplosion.h"
+
+1695148609 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsExplosion.h
+	<jwsImage2.h>
+	<jwsAudio.h>
 

@@ -61,22 +61,13 @@ int jwsFighterMgr::Draw()
 
 int jwsFighterMgr::Update()
 {
+    //cout << "jwsFighterMgr::Update\n";
+
     m_fighter.Update();
 
     m_enemies.Update();
 
+    m_fighter.Collision(m_enemies);
+
     return 0;
-}
-
-bool jwsFighterMgr::Collison(jwsImage2 *image1, jwsImage2 *image2)
-{
-    if ( (image1->GetDY() >= (image2->GetDY()+image2->GetDH())) ||
-	     (image1->GetDX() >= (image2->GetDX()+image2->GetDW())) ||
-	     (image2->GetDY() >= (image1->GetDY()+image1->GetDH())) ||
-	     (image2->GetDX() >= (image1->GetDX()+image1->GetDW())) )
-    {
-		return false;
-	}
-
-    return true;
 }

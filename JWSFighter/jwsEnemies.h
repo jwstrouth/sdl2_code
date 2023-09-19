@@ -15,6 +15,7 @@
 #include <jwsImage2.h>
 #include <jwsWindow2.h>
 #include <jwsRandomNumber.h>
+#include <jwsExplosion.h>
 
 const int MAX_ENEMIES   = 20;
 const int JET_SPEED     = 5;
@@ -27,6 +28,7 @@ class jwsEnemy: public jwsImage2
         {
             m_alive = false;
             m_diry = 1;
+
         }
         virtual ~ jwsEnemy()
         {
@@ -37,6 +39,7 @@ class jwsEnemy: public jwsImage2
             if(m_alive)
             {
                 Draw();
+                //m_expode.Draw();
             }
         }
 
@@ -44,13 +47,17 @@ class jwsEnemy: public jwsImage2
         void ReverseDirY(){ m_diry *= -1; }
         int GetDirY(){ return m_diry; }
         void SetAlive(){ m_alive = true; }
+        void SetDead(){ m_alive = false; }
+
 
     protected:
 
     private:
-        bool        m_alive;
-        int         m_diry;
-        jwsWindow2  &m_wnd;
+        bool            m_alive;
+        int             m_diry;
+        jwsWindow2      &m_wnd;
+        jwsExplosion    m_explosion;
+
 };
 
 class jwsEnemies

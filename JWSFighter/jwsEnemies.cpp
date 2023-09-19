@@ -57,7 +57,8 @@ void jwsEnemies::Create()
             }
             while(diry == 0);
 
-            pE->Load("data/jet_enemy.png", m_wnd.GetRen(), 255, 255, 255);
+            //pE->Load("data/jet_enemy.jpeg", m_wnd.GetRen(), 0, 0, 0);
+            pE->Load("data/jet_enemy_1.png", m_wnd.GetRen(), 0, 0, 0);
 
             if(diry < 0)
             {

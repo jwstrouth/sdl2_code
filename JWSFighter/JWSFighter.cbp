@@ -69,6 +69,8 @@
 		<Unit filename="../lib2/jwsWindow2.h" />
 		<Unit filename="jwsEnemies.cpp" />
 		<Unit filename="jwsEnemies.h" />
+		<Unit filename="jwsExplode.cpp" />
+		<Unit filename="jwsExplode.h" />
 		<Unit filename="jwsFighter.cpp" />
 		<Unit filename="jwsFighter.h" />
 		<Unit filename="jwsFighterMgr.cpp" />

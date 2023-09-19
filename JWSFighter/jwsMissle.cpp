@@ -29,6 +29,7 @@ void jwsMissle::Update()
         if(x > m_wnd.GetW())
         {
             m_alive = false;
+            SetDX(0);
         }
     }
 }
@@ -71,7 +72,7 @@ void jwsMissles::Update(int x, int y)
         {
             for(list<jwsMissle*>::iterator it = m_list.begin(); it != m_list.end(); it++)
             {
-                if(!(*it)->IsAlive())
+                if((*it)->IsAlive() == false)
                 {
                     pM = (*it);
                     break;
@@ -88,7 +89,7 @@ void jwsMissles::Update(int x, int y)
                 pM->SetAlive();
             }
 
-            //cout << "<SPACE BAR>" << "\n";
+            cout << "Reload" << "\n";
         }
     }
     m_reload = IsSpace();
@@ -112,14 +113,41 @@ void jwsMissles::Collision(jwsEnemies &e)
     jwsMissle *pM = 0;
     jwsEnemy  *pE = 0;
 
+    //cout << "Collision Detection\n";
+
     for(list<jwsMissle*>::iterator itm = m_list.begin(); itm != m_list.end(); itm++)
     {
         pM = (*itm);
+
+        //cout << "pM Address: " << pM << "\n";
 
         for(list<jwsEnemy*>::iterator ite = e.m_list.begin(); ite != e.m_list.end(); ite++)
         {
             pE = (*ite);
 
+            //cout << "pE Address: " << pE << "\n";
+
+            if(pM->IsAlive() && pE->IsAlive())
+            {
+
+                if( (pE->GetDY() >= (pM->GetDY() + pM->GetDH()/2)) ||
+                    (pE->GetDX() >= (pM->GetDX() + pM->GetDW()/2)) ||
+                    (pM->GetDY() >= (pE->GetDY() + pE->GetDH())) ||
+                    (pM->GetDX() >= (pE->GetDX() + pE->GetDW())) )
+                {
+                    // no collision
+                    //cout << "Missile and Enemy collison NOT detected\n";
+                }
+                else
+                {
+                    pE->SetDead();
+                    pM->SetDead();
+                    cout << "Missile and Enemy collison detected\n";
+                    cout << "Missle (x:y) " << pM->GetDX()+pM->GetDW() << ":" << pM->GetDY() << "\n";
+                    cout << "Missle (x:y) " << pE->GetDX()+pE->GetDW() << ":" << pE->GetDY() << "\n";
+                }
+
+            }
         }
     }
 }

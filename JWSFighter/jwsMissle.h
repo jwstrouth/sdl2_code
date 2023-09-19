@@ -17,7 +17,7 @@
 #include <jwsEvent.h>
 #include <jwsEnemies.h>
 
-const int MAX_MISSLES   = 20;
+const int MAX_MISSLES   = 3;
 const int MISSLE_SPEED  = 20;
 
 class jwsMissle: public jwsImage2
@@ -28,6 +28,7 @@ class jwsMissle: public jwsImage2
 
         bool IsAlive(){ return m_alive; }
         void SetAlive(){ m_alive = true; }
+        void SetDead(){ m_alive = false; }
         void DrawMissle()
         {
             if(m_alive)

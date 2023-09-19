@@ -7,44 +7,14 @@
 			<Cursor1 position="998" topLine="20" />
 		</Cursor>
 	</File>
+	<File name="jwsAliens.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="50" topLine="9" />
+		</Cursor>
+	</File>
 	<File name="../lib2/jwsAudio.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="455" topLine="4" />
-		</Cursor>
-	</File>
-	<File name="../lib2/jwsRunState.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="45" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="jwsAliens.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="50" topLine="21" />
-		</Cursor>
-	</File>
-	<File name="jwsShot.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="470" topLine="10" />
-		</Cursor>
-	</File>
-	<File name="jwsPlayer.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="658" topLine="1" />
-		</Cursor>
-	</File>
-	<File name="../lib2/jwsGame.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1011" topLine="42" />
-		</Cursor>
-	</File>
-	<File name="../lib2/jwsAudio.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1603" topLine="5" />
-		</Cursor>
-	</File>
-	<File name="jwsShot.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1278" topLine="45" />
 		</Cursor>
 	</File>
 	<File name="main.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -57,6 +27,31 @@
 			<Cursor1 position="974" topLine="35" />
 		</Cursor>
 	</File>
+	<File name="../lib2/jwsAudio.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1603" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="../lib2/jwsGame.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1011" topLine="42" />
+		</Cursor>
+	</File>
+	<File name="../lib2/jwsRunState.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="45" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="jwsExplode.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="185" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="jwsShot.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1278" topLine="45" />
+		</Cursor>
+	</File>
 	<File name="jwsMgr.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="657" topLine="9" />
@@ -64,7 +59,17 @@
 	</File>
 	<File name="jwsMgr.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3266" topLine="122" />
+			<Cursor1 position="2961" topLine="125" />
+		</Cursor>
+	</File>
+	<File name="jwsAliens.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="499" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="jwsShot.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="470" topLine="10" />
 		</Cursor>
 	</File>
 	<File name="jwsExplode.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -72,19 +77,14 @@
 			<Cursor1 position="211" topLine="7" />
 		</Cursor>
 	</File>
+	<File name="jwsPlayer.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="658" topLine="1" />
+		</Cursor>
+	</File>
 	<File name="../lib2/jwsImage2.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="94" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="jwsExplode.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="350" topLine="22" />
-		</Cursor>
-	</File>
-	<File name="jwsAliens.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="499" topLine="45" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

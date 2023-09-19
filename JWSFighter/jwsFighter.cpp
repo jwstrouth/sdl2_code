@@ -25,7 +25,8 @@ jwsFighter::~jwsFighter()
 
 void jwsFighter::LoadImage()
 {
-    Load("data/jet.png", m_wnd.GetRen(), 255, 255, 255);
+    Load("data/jet.png", m_wnd.GetRen(), 0, 0, 0);
+    //Load("data/fighter.png", m_wnd.GetRen(), 0, 0, 0);
     SetDX(20);
     SetDY(20);
     SetDW(100);
@@ -95,5 +96,5 @@ void jwsFighter::DrawFighter()
 
 void jwsFighter::Collision(jwsEnemies &e)
 {
-
+    m_missles.Collision(e);
 }
