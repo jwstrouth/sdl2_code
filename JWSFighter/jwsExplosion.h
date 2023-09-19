@@ -4,15 +4,23 @@
 #include <jwsImage2.h>
 #include <jwsAudio.h>
 
-class jwsExplosion: public jwsImage2, jwsAudio
+const int MAX_TIME = 4;
+
+class jwsExplosion: public jwsImage2
 {
     public:
         jwsExplosion();
         virtual ~jwsExplosion();
 
+        void DrawExplosion();
+        void SetPosition(int x, int y);
+
+        void SetTime(){ m_time = MAX_TIME; }
+
     protected:
 
     private:
+        int     m_time;
 };
 
 #endif // JWSEXPLOSION_H

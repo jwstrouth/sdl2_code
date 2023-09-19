@@ -35,6 +35,10 @@ int jwsFighterMgr::Init()
         return -1;
     }
 
+    //Init();
+    //LoadMusic("data/breakout.wav");
+    //PlayMusic();
+
     m_background.SetDX(FS_X);
     m_background.SetDY(FS_Y);
     m_background.SetDW(FS_W-40);

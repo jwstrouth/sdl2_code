@@ -23,12 +23,12 @@ const int JET_SPEED     = 5;
 class jwsEnemy: public jwsImage2
 {
     public:
-        jwsEnemy(jwsWindow2 &wnd):
-        m_wnd(wnd)
+        jwsEnemy(jwsWindow2 &wnd, jwsAudio &audio):
+        m_wnd(wnd),
+        m_audio(audio)
         {
             m_alive = false;
             m_diry = 1;
-
         }
         virtual ~ jwsEnemy()
         {
@@ -39,7 +39,15 @@ class jwsEnemy: public jwsImage2
             if(m_alive)
             {
                 Draw();
-                //m_expode.Draw();
+            }
+            m_explosion.DrawExplosion();
+        }
+
+        void LoadExplosion()
+        {
+            if(m_explosion.Load("data/explosion.png", m_wnd.GetRen(), 0, 0, 255) != 0)
+            {
+                cout << "LoadExplosion Failed\n";
             }
         }
 
@@ -48,6 +56,13 @@ class jwsEnemy: public jwsImage2
         int GetDirY(){ return m_diry; }
         void SetAlive(){ m_alive = true; }
         void SetDead(){ m_alive = false; }
+        void SetExplosion(int x, int y)
+        {
+            m_explosion.SetTime();
+            m_explosion.SetDX(x);
+            m_explosion.SetDY(y);
+            m_audio.PlaySound(500);
+        }
 
 
     protected:
@@ -57,6 +72,7 @@ class jwsEnemy: public jwsImage2
         int             m_diry;
         jwsWindow2      &m_wnd;
         jwsExplosion    m_explosion;
+        jwsAudio        &m_audio;
 
 };
 
@@ -77,6 +93,7 @@ class jwsEnemies
         jwsWindow2      &m_wnd;
         jwsRandomNumber m_random;
         friend class jwsMissles;
+        jwsAudio        m_audio;
 };
 
 #endif // JWSENEMIES_H

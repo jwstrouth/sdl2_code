@@ -16,9 +16,14 @@ m_wnd(wnd)
 {
     for(int i=0;i<MAX_ENEMIES;i++)
     {
-        jwsEnemy *e = new jwsEnemy(wnd);
+        jwsEnemy *e = new jwsEnemy(wnd, m_audio);
         m_list.push_back(e);
     }
+
+    m_audio.Init();
+    m_audio.LoadWav("data/explosion.wav");
+    m_audio.LoadMusic("data/breakout.wav");
+    m_audio.PlayMusic();
 }
 
 jwsEnemies::~jwsEnemies()
@@ -77,6 +82,8 @@ void jwsEnemies::Create()
             pE->SetDW(100);
             pE->SetDH(100);
             pE->SetAlive();
+
+            pE->LoadExplosion();
         }
     }
 }

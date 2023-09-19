@@ -507,10 +507,10 @@
 1689170285 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsWindow2.cpp
 	"jwsWindow2.h"
 
-1695130840 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighterMgr.cpp
+1695154062 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighterMgr.cpp
 	"jwsFighterMgr.h"
 
-1695128222 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighterMgr.h
+1695154126 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighterMgr.h
 	<jwsGame.h>
 	<jwsImage2.h>
 	<jwsFighter.h>
@@ -528,10 +528,10 @@
 	<jwsMissle.h>
 	<jwsEnemies.h>
 
-1695139410 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsEnemies.cpp
+1695154571 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsEnemies.cpp
 	"jwsEnemies.h"
 
-1695148822 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsEnemies.h
+1695154626 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsEnemies.h
 	<list>
 	<jwsImage2.h>
 	<jwsWindow2.h>
@@ -544,10 +544,10 @@
 1695066421 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsRandomNumber.h
 	<iostream>
 
-1695132578 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsMissle.cpp
+1695150587 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsMissle.cpp
 	"jwsMissle.h"
 
-1695132683 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsMissle.h
+1695150444 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsMissle.h
 	<list>
 	<jwsImage2.h>
 	<jwsWindow2.h>
@@ -563,10 +563,10 @@
 	<jwsWindow2.h>
 	<jwsAudio.h>
 
-1695148546 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsExplosion.cpp
+1695151633 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsExplosion.cpp
 	"jwsExplosion.h"
 
-1695148609 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsExplosion.h
+1695154189 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsExplosion.h
 	<jwsImage2.h>
 	<jwsAudio.h>
 

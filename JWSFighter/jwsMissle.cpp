@@ -140,6 +140,7 @@ void jwsMissles::Collision(jwsEnemies &e)
                 }
                 else
                 {
+                    pE->SetExplosion(pE->GetDX(), pE->GetDY());
                     pE->SetDead();
                     pM->SetDead();
                     cout << "Missile and Enemy collison detected\n";
