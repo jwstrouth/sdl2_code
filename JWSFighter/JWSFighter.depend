@@ -1,16 +1,9 @@
 # depslib dependency file v1.0
-1694104096 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/AliensPort/jwsMgr.cpp
-	"jwsMgr.h"
-
-1694104470 /home/jamesstrouth/workspace/sdl2_code/AliensPort/AliensPort/jwsMgr.h
-	"jwsImage2.h"
-	"jwsGame.h"
-	"jwsPlayer.h"
-
-1694092835 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/AliensPort/main.cpp
+1695066005 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/main.cpp
 	<SDL2/SDL.h>
 	<iostream>
-	"jwsMgr.h"
+	<jwsFighterMgr.h>
+	<jwsRandomNumber.h>
 
 1695041501 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsAudio.cpp
 	"jwsAudio.h"
@@ -515,87 +508,49 @@
 1689170285 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsWindow2.cpp
 	"jwsWindow2.h"
 
-1694104060 /home/jamesstrouth/workspace/sdl2_code/AliensPort/AliensPort/jwsPlayer.h
-	"jwsImage2.h"
+1695128247 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighterMgr.cpp
+	"jwsFighterMgr.h"
 
-1694104229 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/AliensPort/jwsPlayer.cpp
-	"jwsPlayer.h"
-
-1694092835 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/main.cpp
-	<SDL2/SDL.h>
-	<iostream>
-	"jwsMgr.h"
-
-1695044720 /home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsMgr.h
-	<jwsImage2.h>
+1695128222 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighterMgr.h
 	<jwsGame.h>
-	<jwsPlayer.h>
-	<jwsShot.h>
-	<jwsAliens.h>
+	<jwsImage2.h>
+	<jwsFighter.h>
+	<jwsEnemies.h>
+	<jwsMissle.h>
+
+1695128325 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighter.cpp
+	"jwsFighter.h"
+
+1695128277 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsFighter.h
+	<jwsImage2.h>
 	<jwsAudio.h>
-
-1694267347 /home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsPlayer.h
-	<jwsWindow2.h>
-	<jwsImage2.h>
-	<jwsEvent.h>
-
-1695045496 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsMgr.cpp
-	"jwsMgr.h"
-
-1694193469 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsPlayer.cpp
-	"jwsPlayer.h"
-
-1694267347 /home/jamesstrouth/workspace/sdl2_code/AliensPort//jwsPlayer.h
-	<jwsWindow2.h>
-	<jwsImage2.h>
-	<jwsEvent.h>
-
-1695045410 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsShot.cpp
-	"jwsShot.h"
-
-1695044275 /home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsShot.h
-	<jwsImage2.h>
 	<jwsWindow2.h>
 	<jwsEvent.h>
-	<jwsPlayer.h>
-	<jwsAudio.h>
+	<jwsMissle.h>
+	<jwsEnemies.h>
 
-1695044275 /home/jamesstrouth/workspace/sdl2_code/AliensPort//jwsShot.h
+1695128408 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsEnemies.cpp
+	"jwsEnemies.h"
+
+1695128677 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsEnemies.h
+	<list>
+	<jwsImage2.h>
+	<jwsWindow2.h>
+	<jwsRandomNumber.h>
+
+1695066401 source:/home/jamesstrouth/workspace/sdl2_code/lib2/jwsRandomNumber.cpp
+	"jwsRandomNumber.h"
+
+1695066421 /home/jamesstrouth/workspace/sdl2_code/lib2/jwsRandomNumber.h
+	<iostream>
+
+1695128491 source:/home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsMissle.cpp
+	"jwsMissle.h"
+
+1695128701 /home/jamesstrouth/workspace/sdl2_code/JWSFighter/jwsMissle.h
+	<list>
 	<jwsImage2.h>
 	<jwsWindow2.h>
 	<jwsEvent.h>
-	<jwsPlayer.h>
-	<jwsAudio.h>
-
-1695071190 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsAliens.cpp
-	"jwsAliens.h"
-
-1695040416 /home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsAliens.h
-	<jwsImage2.h>
-	<jwsWindow2.h>
-	<jwsEvent.h>
-	<jwsPlayer.h>
-	<jwsExplode.h>
-
-1695040416 /home/jamesstrouth/workspace/sdl2_code/AliensPort//jwsAliens.h
-	<jwsImage2.h>
-	<jwsWindow2.h>
-	<jwsEvent.h>
-	<jwsPlayer.h>
-	<jwsExplode.h>
-
-1695042188 source:/home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsExplode.cpp
-	"jwsExplode.h"
-
-1695042167 /home/jamesstrouth/workspace/sdl2_code/AliensPort/jwsExplode.h
-	<jwsImage2.h>
-	<jwsString.h>
-	<jwsWindow2.h>
-	<jwsAudio.h>
-
-1695042167 /home/jamesstrouth/workspace/sdl2_code/AliensPort//jwsExplode.h
-	<jwsImage2.h>
-	<jwsString.h>
-	<jwsWindow2.h>
-	<jwsAudio.h>
+	<jwsEnemies.h>
 

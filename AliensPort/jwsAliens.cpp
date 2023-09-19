@@ -94,7 +94,7 @@ int jwsAliens::Create(jwsWindow2 *wnd)
     do
     {
         dirx = (rand()%3)-1;
-        std::cout << "jwsMgr::Init: random x: " << x << std::endl;
+        //std::cout << "jwsMgr::Init: random x: " << dirx << std::endl;
     }
     while(dirx == 0);
 
