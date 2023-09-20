@@ -1,6 +1,11 @@
 /* @file jwsFighter.h
  *
  * @brief the jet fighter declaration for JWSFighter example
+ *        - load fighter image
+ *        - update fighter movement via keyboard input
+ *        - draw fighter
+ *        - entry point for collison detection
+ *            missile and enemy collision detection
  *
  * @author James Strouth
  * Contact: jamesstrouth@gmail.com

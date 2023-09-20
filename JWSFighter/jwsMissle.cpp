@@ -1,6 +1,13 @@
 /* @file jwsMissile.cpp
  *
  * @brief the jet fighter missile implementation for JWSFighter example
+ *        - initialize stl list of missiles in container
+ *        - update missiles
+ *             use reload for launching missile based on keyboard input
+ *                gets position from the fighter's position
+ *             moves missile and check bundary to disable missile
+ *             also uses collision detection with enemy to disable missile and enemy
+ *         - draws missiles
  *
  * @author James Strouth
  * Contact: jamesstrouth@gmail.com

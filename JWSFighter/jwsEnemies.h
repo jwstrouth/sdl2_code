@@ -1,6 +1,11 @@
 /* @file jwsEnemies.h
  *
  * @brief the jet fighter enemy declaration for JWSFighter example
+ *        - enemy inherits from image base class to load and draw graphics
+ *        - enemies contains stl list of enemies
+ *            contains audo point for music and sound
+ *            random number generator
+ *            friends with missiles class
  *
  * @author James Strouth
  * Contact: jamesstrouth@gmail.com

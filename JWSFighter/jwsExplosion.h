@@ -1,3 +1,16 @@
+/* @file jwsExplosion.h
+ *
+ * @brief the explosion object declaration for JWSFighter example
+ *
+ *        - draw explosion
+ *        - times how long explosion is drawn
+ *        - set explosions position (collision with enemy point)
+ *
+ * @author James Strouth
+ * Contact: jamesstrouth@gmail.com
+ *
+ */
+
 #ifndef JWSEXPLOSION_H
 #define JWSEXPLOSION_H
 

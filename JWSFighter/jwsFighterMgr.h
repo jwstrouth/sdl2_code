@@ -1,6 +1,12 @@
 /* @file jwsFighterMgr.h
  *
  * @brief the jet fighter manager declaration for JWSFighter example
+ *        - the manager has a fighter, enemies, and background graphics
+ *        - it initializes, loads graphics (via other objects), updates
+ *          move and collision detection
+ *        - draws graphics
+ *        - runs music and sound (via other objects)
+ *        - inherit from the jwsGame and support game loop
  *
  * @author James Strouth
  * Contact: jamesstrouth@gmail.com

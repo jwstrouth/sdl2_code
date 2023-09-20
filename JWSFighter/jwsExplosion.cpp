@@ -1,3 +1,17 @@
+/* @file jwsExplosion.cpp
+ *
+ * @brief the explosion object implementation for JWSFighter example
+ *
+ *        - time explosion to be drawn
+ *        - draw explosion
+ *        - set position of explosion
+ *
+ *
+ * @author James Strouth
+ * Contact: jamesstrouth@gmail.com
+ *
+ */
+
 #include "jwsExplosion.h"
 
 jwsExplosion::jwsExplosion()

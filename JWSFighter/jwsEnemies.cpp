@@ -1,6 +1,16 @@
 /* @file jwsEnemies.cpp
  *
  * @brief the jet fighter enemy implementation for JWSFighter example
+ *        - load music and sound audio
+ *             explosion sound
+ *             background music
+ *        - create list of maximum enemies for this game
+ *             not alive until creation point
+ *             uses random number to determine when to draw enemies
+ *             called based on loop speed
+ *             load explosion grahics
+ *        - update enemy movement
+ *        - draw enemy
  *
  * @author James Strouth
  * Contact: jamesstrouth@gmail.com

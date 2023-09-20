@@ -1,6 +1,10 @@
 /* @file jwsMissile.h
  *
  * @brief the jet fighter missile declaration for JWSFighter example
+ *        - draw missile and update missile movement
+ *        - missiles collection using stl list container
+ *            load missile graphics, update and draw missile
+ *            collision detection of missele and enemy
  *
  * @author James Strouth
  * Contact: jamesstrouth@gmail.com

@@ -1,6 +1,14 @@
 /* @file jwsFighterMgr.cpp
  *
  * @brief the jet fighter manager implementation for JWSFighter example
+ *        - initialze the SDL2 window
+ *        - load background graphics and set position
+ *        - load fighter graphics via fighter object
+ *        - draw all object graphics (via other objects)
+ *           clear for next frame of graphics
+ *           set color
+ *           draw graphics
+ *        - update movement, detect boundary detection and collison detection
  *
  * @author James Strouth
  * Contact: jamesstrouth@gmail.com
@@ -34,10 +42,6 @@ int jwsFighterMgr::Init()
         std::cout << "jwsFighterMgr::Init: Failed" << std::endl;
         return -1;
     }
-
-    //Init();
-    //LoadMusic("data/breakout.wav");
-    //PlayMusic();
 
     m_background.SetDX(FS_X);
     m_background.SetDY(FS_Y);

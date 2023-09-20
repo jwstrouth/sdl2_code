@@ -1,6 +1,12 @@
 /* @file jwsFighter.cpp
  *
  * @brief the jet fighter implementation for JWSFighter example
+ *        - load jet image
+ *        - set jet position
+ *        - initilize missiles
+ *        - get keyboard input to determine new position
+ *             used by missiles for entry point of launch
+ *        - draw jet and missile graphics
  *
  * @author James Strouth
  * Contact: jamesstrouth@gmail.com
