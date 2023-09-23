@@ -1,3 +1,15 @@
+/* @file main.cpp
+ *
+ * @brief the main entry point for SDL2 example
+ *
+ * This was saved as a SDL2 template (jwsSDL2Template)
+ *
+ *
+ * @author James Strouth
+ * Contact: jamesstrouth@gmail.com
+ *
+ */
+
 #include <exception>
 #include <string>
 #include <iostream>
@@ -34,6 +46,9 @@ const char * InitError::what() const throw()
     return msg.c_str();
 }
 
+/* This may be a good starting point for creating
+ * SDL2 projects.
+ */
 class SDL
 {
     SDL_Window * m_window;
